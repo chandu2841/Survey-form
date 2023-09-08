@@ -1,0 +1,67 @@
+/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background-color: #ace4e9;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgb(229, 225, 225);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: lightgreen;
+			border: 1px transparent #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: transparent;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+        button:hover{
+            box-shadow: 0 0 5px rgb(40, 250, 3),
+            0 0 25px rgb(28, 252, 3), 0 0 50pc rgb(5, 254, 55),
+            0 0 100px rgb(35, 248, 2), 0 0 200px rgb(7, 246, 3);
+          }
